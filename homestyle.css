@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header Style Start */
+.navbar {
+    background-color: white;
+}
+
+.nav-item {
+    padding: 0 40px 0 40px;
+}
+
+.nav-item>.btn {
+    border: 1px solid black;
+    padding: 1px 20px;
+    border-radius: 15px;
+    min-width: 110px;
+}
+
+@media (max-width: 1000px) {
+    .nav-item {
+        height: 50px;
+        padding: 20px;
+    }
+
+    .nav-item>.btn {
+        border: 1px solid black;
+        min-width: 150px;
+        padding: 0px;
+    }
+}
+
+
+
+.nav-item>.btn:hover {
+    background-color: #3246ef;
+    color: aliceblue;
+}
+
+
+.banner1__wordings {
+    color: black;
+}
+
+/* Header Style End */
+
+/* body image Style Start*/
+
+.carousel>.carousel-inner>.carousel-item>.carousel-caption {
+    width: 450px;
+    color: black;
+    top: 100px;
+    left: 100px;
+    text-align: left;
+
+}
+
+.carousel-caption h1 {
+    font-weight: bolder;
+}
+
+.carousel-caption span {
+    color: #3246ef;
+}
+
+.carousel-caption p {
+    line-height: 15px;
+}
+
+.carousel-caption>.btn {
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 150px;
+    background-color: #3246ef;
+    color: aliceblue;
+}
+
+.carousel-indicators li {
+    border: 1px solid black !important;
+    border-top: 1px solid black !important;
+    height: 12px !important;
+    width: 12px !important;
+    border-radius: 12px;
+    background-color: grey !important;
+    margin: 15px !important;
+}
+
+/* body image Style End*/
+
+/* body search box Style starts*/
+.flex-conatiner {
+    width: fit-content;
+    height: 67px;
+    border: 2px solid black;
+    border-radius: 34px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+
+.Search>.form-control {
+
+    border: none;
+}
+
+.Search {
+    border-right: 1px solid black;
+}
+
+
+/* body search box Style end*/
+
+/* body customer Style starts*/
+.container-customer {
+    margin: 20px;
+}
+
+/* body customer Style end*/
+
+
+
+
+/* Style for Explore more table start */
+.container-topics>.row>.col-xs-12,
+.col-sm-12,
+.col-md-3,
+.col-lg-3,
+.btn {
+    text-align: center;
+}
+
+.container-topics>.row>.column>p {
+    margin-top: -20px;
+}
+
+.container-topics>.row>.col>.btn {
+    width: 200px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 3px 1px 3px 3px rgb(208, 206, 206) !important;
+}
+
+/* Style for Explorse more table end*/
+
+/* Style for Image start*/
+.banner {
+    width: 100%;
+    height: 350px;
+    background-image: url(./Assets/Images/Banner-3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-size-adjust: auto;
+    margin: 20px;
+}
+
+
+.flex-banner {
+    width: 100%;
+    text-align: center;
+    padding-right: 100px;
+    text-size-adjust: 80%;
+    position: relative;
+    top: 175px;
+
+}
+
+.banner-word1 {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.banner-word1>h3 {
+    color: #3246ef;
+    font-weight: bold;
+}
+
+.banner-word1>p {}
+
+.banner-word2>h3,
+.banner-word3>h3,
+.banner-word4>h3 {
+    font-weight: bold;
+}
+
+.banner-word2>p,
+.banner-word3>p,
+.banner-word4>p {
+    font-size: larger;
+}
+
+@media (max-width: 992px) {
+
+    .banner>.flex-banner>.row {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .banner>.flex-banner>.row {
+        font-size: 7px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .banner>.flex-banner>.row {
+        font-size: 5px;
+    }
+}
+
+
+
+/* Style for Image end*/
+
+/* style for Card Categories start */
+
+
+
+.card {
+    box-shadow: 3px 1px 3px 3px rgb(208, 206, 206);
+}
+
+.container-jobs1,
+.container-jobs2,
+.container-jobs3 {
+    margin: 30px;
+    text-align: center;
+}
+
+.container-jobs3>button {
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 3px 1px 3px 3px rgb(208, 206, 206);
+}
+
+@media (max-width: 750px) {
+
+    .container-jobs1>.row>.column {
+        margin: 10px;
+    }
+
+    .container-jobs2>.row>.column {
+        margin: 10px;
+    }
+
+    .container-jobs2 {
+        margin-top: -30px;
+    }
+}
+
+/* style for Card Categories end */
+
+/* style for phone image start */
+
+.container-phone>.row>.col-sm-3>.card {
+    width: 200px;
+    text-align: center;
+    height: 100px;
+    margin: 100px auto;
+}
+
+.container-phone>.row>.col-sm-3>.card>.card-body>p {
+    width: 180px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.container-phone>.row>.col-sm-6 {
+    text-align: center;
+}
+
+.container-phone>.row>.col-sm-3>.card-left {
+    border-radius: 20px 0 0 0;
+}
+
+.container-phone>.row>.col-sm-3>.card-right {
+    border-radius: 0 20px 0 0;
+}
+
+/* style for phone image start */
+
+/* style for cities start */
+.container-cities>.container-cities1>.row>.col-sm-3>.card>.card-body>h2 {
+    color: #3246ef;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.container-cities>.container-cities2>.row>.col-sm-3>.card>.card-body>h2 {
+    color: #3246ef;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+
+.container-cities>.container-cities2>.row>.col-sm-3>.card>.card-body {
+    line-height: 0px;
+}
+
+.container-cities>.container-cities1>.row>.col-sm-3>.card>.card-body {
+    line-height: 0px;
+
+}
+
+.container-cities>.container-cities1>.row>.col-sm-3>.card {
+    text-align: center;
+    width: 150px;
+    height: 120px;
+    border-radius: 0 20px 0 20px;
+    margin: 10px auto;
+}
+
+.container-cities>.container-cities2>.row>.col-sm-3>.card {
+    text-align: center;
+    width: 150px;
+    height: 120px;
+    border-radius: 0 20px 0 20px;
+    margin: 10px auto;
+}
+
+.container-cities>h2,
+p {
+    text-align: center;
+}
+
+/* style for cities end */
+
+/* Style for Vacancy start */
+
+.container-vacancy>.card>.row>.col-2 {
+    border-right: 1px solid black;
+    margin: 5px;
+}
+
+.container-vacancy>.card>.row>.col-6 {
+    text-align: left;
+    line-height: 4ex;
+    align-self: center;
+}
+
+.container-vacancy>.card>.row>.col-6>h3 {
+    color: #3246ef;
+
+}
+
+.container-vacancy>.card>.row>.col {
+    text-align: right;
+}
+
+.container-vacancy>.card>.row>.col>p {
+    text-align: right;
+    margin-right: 20px;
+}
+
+@media (max-width: 750px) {
+    .container-vacancy>.card>.row>.col-2 {
+        align-self: center;
+
+    }
+
+    .container-vacancy>.card>.row>.col-6 {
+        font-size: small;
+        line-height: 1em;
+    }
+
+    .container-vacancy>.card>.row>.col-6>h3 {
+        font-size: small;
+    }
+
+    .container-vacancy>.card>.row>.col>p {
+        font-size: 10px;
+        margin-right: 10px;
+    }
+
+    .container-vacancy>.card>.row>.col>img {
+        width: 50px;
+        height: 50px;
+
+    }
+
+
+}
+
+
+/* Style for Vacancy End */
+/* Style for app starts */
+.container__app {
+    background-color: rgb(214, 228, 246);
+    margin-top: 50px;
+}
+
+.container__app>.row>.col-sm-6 {
+    text-align: center;
+    align-self: center;
+}
+
+/* Style for app End */
+
+/* Style for Testimonial starts */
+.container__testimonial {
+    background-color: gainsboro;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.container__testimonial>.container img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.container__testimonial>.container>.row {
+    font-size: small;
+
+}
+
+.container__testimonial>.container>.row__1 {
+    padding: 20px;
+}
+
+.container__testimonial>.container>.row__2>.col-sm-4 {
+    padding: 0 30px 0 30px;
+}
+
+
+
+
+/* Style for Testimonial ends */
+
+/* Style for app starts */
+
+.container-download {
+    height: 700px;
+    background-image: url(./Assets/Images/Banner-2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* Style for app ends */
+
+/* Style for Footer starts */
+footer>.container-fluid {
+    background-color: #2f40d5;
+    color: aliceblue;
+    padding: 10px 20px 10px 10px;
+}
+
+.container_footer>.row {
+    text-align: left;
+    margin: 35px;
+}
+
+.container_footer>.row>.col-sm-4>p {
+    text-align: left;
+    margin: 15px;
+}
+
+.container_footer>.row>.col-sm-3>p {
+    text-align: left;
+    padding: 5px;
+}
+
+.container_footer>.row>.col-sm-3>h3 {
+    text-align: left;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+
+
+.container_footer>.row>.col-sm-2>img {
+    border-radius: 50%;
+}
+
+.container_footer>.row>.col-sm-2 {
+    padding: 15px;
+
+}
+
+/* Style for Footer ends */
